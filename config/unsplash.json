@@ -1,0 +1,4 @@
+{
+  "UNSPLASH_REDIRECT_URI": "http://localhost:3000/unsplash/oauth",
+  "UNSPLASH_BEARER_TOKEN": ""
+}

@@ -1,0 +1,15 @@
+extends base
+
+block main
+	.ui.main.container
+		form.ui.grid(method="post" action="/unsplash/verify")
+			.row
+				p Introduzca usuario y contraseña de unsplash
+			.row
+				.ui.input
+					input#unsplash_admin.validate(type="text" name="unsplash_admin" placeholder="Usuario")
+			.row
+				.ui.input
+					input#unsplash_password.validate(type="password" name="unsplash_password" placeholder="Contaseña")
+			.row
+				button.ui.right.labeled.icon.button(type="submit") #[i.angle.right.icon] Autenticar
